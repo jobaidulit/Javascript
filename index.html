@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+
+<p>A function with two parameters.</p>
+
+<p id="demo"></p>
+
+<script>
+function fullName(firstName, lastName) {
+  return firstName + " " + lastName;
+}
+
+let name = fullName("jobaidul", "islam");
+
+document.getElementById("demo").innerHTML = "My name is  " + name;
+
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(12, 10);
+
+document.getElementById("demo").innerHTML = "The product is " + result;
+
+</script>
+
+</body>
+</html>
